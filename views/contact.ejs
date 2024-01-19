@@ -13,10 +13,16 @@
     </nav>
   </header>
   <main>
+    <img src="/winter2.jpeg" alt="Sample Image">
+    <form action="/download-image" method="POST">
+      <button type="submit">Download Image</button>
+    </form>
     <h2>Contact Us</h2>
     <p>Please fill out the form below to get in touch:</p>
     <form>
-      <!-- Contact form goes here -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <button type="submit">Submit</button>
     </form>
   </main>
 </body>
